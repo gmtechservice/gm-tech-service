@@ -98,8 +98,8 @@
         "END:VCARD"
       ].join("\r\n") + "\r\n";
 
-      const file = new Blob(["\uFEFF", contatto], {
-        type: "text/vcard;charset=utf-8"
+       const file = new Blob([contatto], {
+       type: "text/vcard;charset=utf-8"
       });
       const indirizzo = URL.createObjectURL(file);
       const link = document.createElement("a");

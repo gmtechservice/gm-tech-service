@@ -10,16 +10,19 @@
 
   <style>
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      padding: 24px 16px;
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-family: Arial, sans-serif;
-      color: #f3f4f6;
-      background: #171d26;
+   body {
+  margin: 0;
+  padding: 24px 16px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0;
+  font-family: Arial, sans-serif;
+  color: #f3f4f6;
+  background: #171d26;
+}
     }
     .biglietto {
       width: 100%;
@@ -78,8 +81,10 @@
     
 /* Sezione aziende collaboratrici */
 .partners {
-  margin-top: 30px;
-  padding-top: 22px;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto 24px;
+  padding: 22px 24px;
   border-top: 1px solid #343A42;
   text-align: center;
 }
@@ -126,12 +131,7 @@
   </main>
 
   <section class="partners">
-      <h2>Partner e aziende collaboratrici</h2>
-      <div class="partner-logos">
-        <img src="logo_azienda_1_trasparente.png"
-             alt="Logo azienda partner">
-      </div>
-    </section>
+    
   </main>
   <h2>Partner e aziende collaboratrici</h2>
   <div class="partner-logos">

@@ -75,6 +75,38 @@
     }
     .principale { background: #e5edf7; color: #192434; }
     .nota { margin: 24px 0 0; color: #aeb8c6; font-size: 12px; line-height: 1.5; }
+    
+/* Sezione aziende collaboratrici */
+.partners {
+  margin-top: 30px;
+  padding-top: 22px;
+  border-top: 1px solid #343A42;
+  text-align: center;
+}
+
+.partners h2 {
+  margin: 0 0 18px;
+  color: #E8E8E8;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.partner-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.partner-logos img {
+  display: block;
+  width: 150px;
+  max-width: 100%;
+  height: 75px;
+  object-fit: contain;
+}
+
   </style>
 </head>
 <body>
@@ -93,6 +125,20 @@
     <p class="nota">G.M. Tech Service<br>Assistenza tecnica per cantine e caseifici</p>
   </main>
 
+  <section class="partners">
+      <h2>Partner e aziende collaboratrici</h2>
+      <div class="partner-logos">
+        <img src="logo_azienda_1_trasparente.png"
+             alt="Logo azienda partner">
+      </div>
+    </section>
+  </main>
+  <h2>Partner e aziende collaboratrici</h2>
+  <div class="partner-logos">
+    <img src="logo_azienda_1_trasparente.png"
+         alt="Logo azienda partner">
+  </div>
+</section>
   <script>
     function salvaContatto() {
       const contatto = [
